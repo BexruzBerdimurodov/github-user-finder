@@ -1,74 +1,59 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# 🚀 GitHub User Finder  
 
-## Project info
+GitHub User Finder is a web application built with **React (TypeScript), Tailwind CSS, and GitHub API** that allows users to search for GitHub profiles and view detailed information about them.  
 
-**URL**: https://lovable.dev/projects/120b9e84-facc-42c3-93a3-885a134deed2
+## 🔥 Features  
+✅ Search for GitHub users by username  
+✅ View user details (avatar, bio, repositories, followers, following)  
+✅ Display a list of user repositories  
+✅ Responsive and modern UI with **Tailwind CSS**  
+✅ Built with **TypeScript** for better maintainability  
 
-## How can I edit this code?
+## 🛠 Technologies Used  
+- **React (TypeScript)** – Component-based UI development  
+- **Tailwind CSS** – Fast and modern styling  
+- **GitHub API** – Fetching user profile data  
+- **Axios** – Handling API requests  
 
-There are several ways of editing your application.
+## 📦 Installation & Setup  
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/120b9e84-facc-42c3-93a3-885a134deed2) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### 1️⃣ Clone the repository  
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/BexruzBerdimurodov/github-user-finder.git  
+cd github-user-finder  
 ```
 
-**Edit a file directly in GitHub**
+### 2️⃣ Install dependencies  
+```sh
+npm install  
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 3️⃣ Create a `.env` file in the root directory  
+Add the following environment variables:  
+```sh
+VITE_GITHUB_API_URL=https://api.github.com
+```
 
-**Use GitHub Codespaces**
+### 4️⃣ Start the development server  
+```sh
+npm run dev  
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 How to Use  
+1. Enter a **GitHub username** in the search bar.  
+2. Click the **Search** button.  
+3. View the user’s **profile details, repositories, followers, and following**.  
 
-## What technologies are used for this project?
+## 🌐 Live Demo  
+🔗 **[GitHub User Finder Live](#)** (Add your deployed link here)  
 
-This project is built with .
+## 🖼 Screenshots  
+![GitHub User Finder Screenshot](https://via.placeholder.com/800x400)  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## ✨ Other Projects by Bexruz Berdimurodov  
+Check out my other projects on my **[portfolio website](https://berdimurodov.uz)** and **[GitHub profile](https://github.com/BexruzBerdimurodov)**:  
+- 🔍 **GitHub Repo Explorer** – A tool to explore repositories.  
+- 🚀 **Another Cool Project** – Add a brief description.  
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/120b9e84-facc-42c3-93a3-885a134deed2) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
-=======
-# github-user-finder-
-GitHub User Finder by berdimurodov.uz
->>>>>>> 5ea71c2e9db997842771c398295d2185c55df856
+## 📜 License  
+This project is open-source and available under the **MIT License**.  
